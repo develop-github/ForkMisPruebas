@@ -24,7 +24,14 @@ class ViewController: UIViewController {
 
     @IBAction func interruptorPulsado(_ sender: UISwitch) {
         view.backgroundColor = sender.isOn == true ? .yellow : .darkGray
+        var escalado: CGAffineTransform = .identity
+        if sender.isOn {
+            escalado = CGAffineTransform(scaleX: 2, y: 2)
+        }
+        UISwitch.animate(withDuration: 0.3) {
+            sender.transform = escalado
+        }
     }
-
+        
 }
 
