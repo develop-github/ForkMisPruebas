@@ -25,6 +25,7 @@ class InicioViewController: UIViewController {
     @IBAction func interruptorPulsado(_ sender: UISwitch) {
         // Cambiar el color de fondo del view controller, según la posición del switch en on u off.
         view.backgroundColor = sender.isOn == true ? .yellow : .darkGray
+        // Transformada para escalar el switch
         var escalado: CGAffineTransform = .identity
         if sender.isOn {
             escalado = CGAffineTransform(scaleX: 2, y: 2)
