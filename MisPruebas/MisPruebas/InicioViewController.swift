@@ -28,6 +28,7 @@ class InicioViewController: UIViewController {
         // Esta variable almacenará el valor del escalado
         var escalado: CGAffineTransform = .identity
         if sender.isOn {
+            // Esta trasformación escalará 2 veces su tamaño
             escalado = CGAffineTransform(scaleX: 2, y: 2)
         }
         UISwitch.animate(withDuration: 0.3) {
