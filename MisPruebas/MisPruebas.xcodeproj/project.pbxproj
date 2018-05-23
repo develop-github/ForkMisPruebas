@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB2241C520B57E6A00404C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2241C420B57E6A00404C08 /* AppDelegate.swift */; };
-		EB2241C720B57E6A00404C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2241C620B57E6A00404C08 /* ViewController.swift */; };
+		EB2241C720B57E6A00404C08 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2241C620B57E6A00404C08 /* InicioViewController.swift */; };
 		EB2241CA20B57E6A00404C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2241C820B57E6A00404C08 /* Main.storyboard */; };
 		EB2241CC20B57E6C00404C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2241CB20B57E6C00404C08 /* Assets.xcassets */; };
 		EB2241CF20B57E6C00404C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2241CD20B57E6C00404C08 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		EB2241C120B57E6A00404C08 /* MisPruebas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisPruebas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2241C420B57E6A00404C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB2241C620B57E6A00404C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2241C620B57E6A00404C08 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		EB2241C920B57E6A00404C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB2241CB20B57E6C00404C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2241CE20B57E6C00404C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2241C420B57E6A00404C08 /* AppDelegate.swift */,
-				EB2241C620B57E6A00404C08 /* ViewController.swift */,
+				EB2241C620B57E6A00404C08 /* InicioViewController.swift */,
 				EB2241C820B57E6A00404C08 /* Main.storyboard */,
 				EB2241CB20B57E6C00404C08 /* Assets.xcassets */,
 				EB2241CD20B57E6C00404C08 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2241C720B57E6A00404C08 /* ViewController.swift in Sources */,
+				EB2241C720B57E6A00404C08 /* InicioViewController.swift in Sources */,
 				EB2241C520B57E6A00404C08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8N4A4AZMX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MisPruebas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8N4A4AZMX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MisPruebas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
