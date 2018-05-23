@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func interruptorPulsado(_ sender: UISwitch) {
+        view.backgroundColor = sender.isOn == true ? .yellow : .darkGray
+    }
 
 }
 
